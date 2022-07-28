@@ -1,0 +1,64 @@
+Git / Github
+
+*Sistema de versionamento: metodologia de classificação adotada por programadores com intuito de controlar e acompanhar o histórico de alterações em um software.
+*Sistema de controle de versões distribuido.(p/ Desenvolvimento de software).
+*Git Huba é a plataforma de hospedagem de projetos que utilizam o git.
+*Para trabalhar com eles usaremos o terminal que podem ser tanto powershell, cmd, ou git bash.
+
+-git status( verifica quais sãos os arquivos que foram adicionados ao projeto).
+
+-git add( insere arquivos ou diretórios para serem rastreados pelo controle de versão. Sempre que alterar ou inserir adicione-o ao seu controle).
+
+-git pull origin "nome da branch"(obtém do repositório a última atualização da ramificação do projeto. nome padrão da Branch é master).
+
+-git commit -m "mensagem do commit" (efetiva as alterações locais feitas no seu repositório como sendo a última versão).
+
+-git push origin "nome da branch" (efetiva o upload das alterações para o repositório remoto).
+
+
+*Criar repositório no github
+-Readme - arquivo que diz como é o projeto desse repositório.
+-Acessar a pasta desejada no pc. Copiar caminho.
+-Abrir terminal cmd.
+-cd colar caminho da pasta.
+-dar um clone download, copiar o caminho
+-copiar pasta do git e colar dentro da pasta(git clone endereço).
+-pegar projeto manualmente e colocar dentro da pasta do pc.
+terminal caminhar até a pasta
+git add .
+git commit -m "msg"
+git push origin master
+
+
+* o que são branches
+são ramos são utilizadas para desenvolver funcionalidades isoladas uma das outras.
+a master é o branch padão, versão segura.
+
+
+-git checkout -b "projetoA" (cria uma nova branch e acessa ela imediatamente).
+-git checkout "master" (acessa uma determinada branch).
+-git branch -d "projetoA" (exclui uma branch).
+
+
+***Para criar uma nova branch
+acessar a pasta do projeto no pc.
+dentro da pasta aonde tem o git.
+copiar caminho.
+acessar ele através do temrinal.
+cmd
+cd caminhodoprojeto.
+*git checkout -b "nome da branch"
+git checkout nome da branch
+git add .
+git status
+git commit -m "msg"
+push origin gitgeneration(nome da nova branch)
+
+
+*comando merge
+copia caminho da pasta no terminal
+-git checkout "nome da branch"
+git checkout master(para acessar)
+git merge "nome da nova branch"
+git commit -m "msg"
+git push origin master
