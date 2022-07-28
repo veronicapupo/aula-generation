@@ -1,4 +1,4 @@
-Git / Github
+!!!!Git GitHub!!!
 
 *Sistema de versionamento: metodologia de classificação adotada por programadores com intuito de controlar e acompanhar o histórico de alterações em um software.
 *Sistema de controle de versões distribuido.(p/ Desenvolvimento de software).
@@ -62,3 +62,6 @@ git checkout master(para acessar)
 git merge "nome da nova branch"
 git commit -m "msg"
 git push origin master
+
+
+alteração para commit git
