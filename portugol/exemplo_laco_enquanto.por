@@ -21,12 +21,25 @@ programa
         escreva("\nQuantidade de  numeros impares: ",quantImpar)
 	}
 }
+  //*inclua biblioteca Util
+/* inteiro contador=10
+ *  enquanto(contador>0){
+ *  limpa()
+ *  escreva("Contagem regressiva...",contador)
+ *  contador = contador -1
+ *  Util.aguarde(2000)
+ *  }
+ *  limpa()
+ *  escreva("Booooom...")
+ *  }
+ * 
+ */
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 435; 
+ * @POSICAO-CURSOR = 503; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

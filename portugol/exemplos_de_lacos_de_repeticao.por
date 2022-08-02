@@ -22,12 +22,24 @@ programa
 	   escreva("\nMedia geral da turma: ",mat.arredondar(mediaGeral,2))
 	}
 }
+
+/*
+ * inteiro x,tab,res
+ * escreva("Qual tabuada voce deseja visualizar: ")
+ * leia(tab)
+ * 
+ * para(x=1;x<=10;x++)
+ * {
+ * res= x * tab
+ * escreva("\n",x," X ", tab, " = ",res)
+ *
+ */
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 441; 
+ * @POSICAO-CURSOR = 714; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
