@@ -9,7 +9,7 @@ programa
 			
 			escreva("\n" + contador)
 				
-			se(contador < 300 e contador > 400) {
+			se(contador >= 300 e contador <= 400) {
 				contador = contador + 3
 			}
 			senao{
@@ -30,7 +30,7 @@ contando de 3 em 3 quando estiver entre 300 e 400 e de 5 em 5 quando não estive
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 106; 
+ * @POSICAO-CURSOR = 101; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

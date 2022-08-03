@@ -2,29 +2,30 @@ programa
 {
 	
 	funcao inicio()
-	
-	{    inteiro numero, soma= 0
-
-          escreva("\nDigite um número: ")
-		leia(numero)
+	{
+		inteiro numero [4], x
 		
-		faca{ 
-			soma =soma +numero
-			numero--
+		para (x = 0; x < 4 ; x++)
+		{    escreva("\nEntre com o numero: ")
+			leia(numero[x])
 			
 		}
-	     enquanto(numero>=1)
-	     	escreva("\nResultado da soma do número é de: ", soma)
-	     }
+		para (x = 0; x < 4 ; x++) {
+			escreva("\nValor Posição: ",x+1, ":",numero[x])
+		}
+		para (x = 3; x > 0 ; x--){
+			
+			escreva("\nValor Posição: ",x+1, ":",numero[x])
+			
+		}
+	}
 }
-
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 250; 
+ * @POSICAO-CURSOR = 54; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
