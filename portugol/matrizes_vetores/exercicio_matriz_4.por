@@ -18,8 +18,8 @@ programa
 			somaDaPrimeiraDiagonal += matriz[indice][indice]
 		}
 		
-		escreva("somaDaMatriz : ",somaDaMatriz)
-		escreva("\n1somaDaPrimeiraDiagonal : ",somaDaPrimeiraDiagonal)
+		escreva("\nSoma Da Matriz : ",somaDaMatriz)
+		escreva("\nSoma Da Diagonal principal : ",somaDaPrimeiraDiagonal)
 		
 		
 	}
@@ -35,7 +35,7 @@ diagonal, ou seja, diagonal principal.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 397; 
+ * @POSICAO-CURSOR = 490; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

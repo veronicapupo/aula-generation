@@ -14,15 +14,15 @@ programa
 	  		leia(mat[l][c])
 	  		
 	  	}
-
-	  	para (l=0;1<TAMANHO;l++){
+	  }
+	  	para (l=0;l<TAMANHO;l++){
 	  		para (c=0;c<2;c++) {
 	  			escreva("[ ",mat[l][c]," ]")
 	  		}
 	  		escreva("\n")
 	  	}
 	  
-	  }
+	  
 	  
 	}
 }
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 337; 
+ * @POSICAO-CURSOR = 349; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
