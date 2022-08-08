@@ -2,7 +2,7 @@ package exercicios.lacos_repeticao;
 
 import java.util.Scanner;
 
-public class exercicio_enquanto1 {
+public class Exercicioenquanto1 {
 
 
     public static void main(String[] args) {
