@@ -10,7 +10,7 @@ public class VetorArmazena {
 
     int[] numeros = new int[6];
     int numero, contadorPar= 0, contadorImpar = 0;
-    int somaPar = 0, somaImpar = 0;
+    int somaPar = 0;
 
         for (int i = 0; i <6; i++) {
             System.out.println("\nDigite um número: ");
