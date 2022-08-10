@@ -10,7 +10,7 @@ public class exercicio_matriz1 {
         final int LINHA = 3;
         final int COLUNA = 2;
 
-        double n1[][] = new double[LINHA][COLUNA],
+        double  n1[][] = new double[LINHA][COLUNA],
                 n2[][] = new double[LINHA][COLUNA],
                 m1[][] = new double[LINHA][COLUNA],
                 m2[][] = new double[LINHA][COLUNA];
