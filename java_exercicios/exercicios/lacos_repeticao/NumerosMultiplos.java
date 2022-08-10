@@ -4,28 +4,39 @@ import java.util.Scanner;
 
 public class NumerosMultiplos {
 
-    public static void main (String[]args){
+    public static void main(String[] args) {
 
-        int numero, soma=0, mediaMult = 0, quantidadeNum =0;
+        int numero, soma = 0, quantidadeNum = 0;
+        float mediaMult = 0;
         Scanner scan = new Scanner(System.in);
 
 
-       do {
-           System.out.println("\nDigite um número: ");
-           numero = scan.nextInt();
-       }
-       while (numero !=0);
+        do {
+            System.out.println("\nDigite um número: ");
+            numero = scan.nextInt();
+            if (numero == 0) {
+                System.out.println("\nNúmero Invalido");
+            } else {
+                if (numero % 3 == 0) {
+                    soma += numero;
+                    quantidadeNum++;
+                }
+            }
+        }
+        while (numero != 0);
+        if (quantidadeNum == 0) {
+            System.out.println("\nNão é possivel fazer divisao por zero!");
+        }else{
 
-       if (numero % 3 ==0){
-          quantidadeNum++;
-          soma = soma + numero;
-          mediaMult = soma / quantidadeNum;
+                quantidadeNum++;
+                soma = soma + numero;
+                mediaMult = soma / quantidadeNum;
+            }
+        System.out.println("\nMédia dos números múltiplos de 3:" + mediaMult);
+           }
 
-       }
-        System.out.println("\nMédia dos números múltiplos de 3:" + quantidadeNum);
 
-    }
-}
+        }
 
 
 /*
