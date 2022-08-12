@@ -1,4 +1,4 @@
-package exercicios.orientacaoobjeto;
+package exercicios.orientacaoobjeto.cadastro_cliente;
 
 public class PessoaApp {
 

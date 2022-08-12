@@ -1,6 +1,7 @@
-package com.generation.conta;
+package exercicios.orientacaoobjeto.exercicio2;
 
 public class Menu {
+
     public static void main(String[] args) {
 
         Conta conta1 = new Conta(123456, "123", "CC", "Ana", 222.00f);
@@ -24,5 +25,6 @@ public class Menu {
             conta2.visualizar();
         } else
             System.out.println("Saldo insuficinete");
-        }
     }
+}
+
