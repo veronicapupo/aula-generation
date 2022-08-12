@@ -35,4 +35,10 @@ public class Eletronico {
     public void setValor(int valor) {
         this.valor = valor;
     }
+
+    public void imprimir(){
+        System.out.println("Digite a categoria: " + this.categoria);
+        System.out.println("Digite o modelo: " + this.modelo);
+        System.out.println("Digite o valor: " + this.modelo);
+    }
 }
