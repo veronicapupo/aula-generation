@@ -7,16 +7,22 @@ public abstract class Animal {
     private String som;
 
     private String correr;
+
     public Animal(String nome, int idade, String som) {
         this.nome = nome;
         this.idade = idade;
         this.som = som;
     }
-        public Animal(String nome, int idade, String som, String correr) {
-            this.nome = nome;
-            this.idade = idade;
-            this.som = som;
-            this.correr = correr;
+
+    public Animal(String nome, int idade, String som, String correr) {
+        this.nome = nome;
+        this.idade = idade;
+        this.som = som;
+        this.correr = correr;
+    }
+
+    public void emitirSom() {
+        System.out.println("\nEmitindo som " + som);
     }
 
     public String getNome() {
