@@ -1,6 +1,7 @@
 package exercicios.collections;
 
 public class Estoque {
+
 }
 
 
