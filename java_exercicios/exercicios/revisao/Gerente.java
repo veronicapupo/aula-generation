@@ -1,6 +1,7 @@
 package exercicios.revisao;
 
 import java.math.BigDecimal;
+import java.text.DecimalFormat;
 
 public class Gerente extends Trabalhador{
 
@@ -23,11 +24,14 @@ public class Gerente extends Trabalhador{
     public void aumentarSalario(float percentual) {
 
         float bonus = 20;
-        float salarioNovo = 1 + ((percentual + bonus) / 100);
-        BigDecimal aumento = new BigDecimal(salarioNovo);
-        this.setSalario(aumento);
-        System.out.println("\nValor do aumento " + salarioNovo);
 
+        DecimalFormat df = new DecimalFormat();
+        df.setMaximumFractionDigits(2);
+
+        BigDecimal aumento = new BigDecimal((percentual + bonus) / 100);
+        aumento = aumento.multiply(this.getSalario());
+        this.setSalario(this.getSalario().add(aumento));
+        System.out.println("\nNovo salário: " + df.format(getSalario()));
     }
     public void visualizar(){
         super.visualizar();
